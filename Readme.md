@@ -11,9 +11,8 @@ Questões a serem respondidas:
 ## Gerando os dados
 
 1) Faça o download dos microdados através [desse link](http://inep.gov.br/microdados)
-2) Mova os arquivos zip para a pasta `raw_data`
-3) Extraia cada arquivo para uma pasta com o nome do ano. Por exemplo, extraia o arquivo `microdados_enem2018.zip` dentro da pasta `raw_data/2018`
-4) Na pasta raiz, rode o comando `./create_data.sh` passando como parâmetro os anos os quais gostaria de usar. Por exemplo, caso tenha baixado dados de 2015, 2016 e 2017, o comando seria `./create_data.sh 2015,2016,2017`
+2) Extraia o .zip e mova os `MICRODADOS_ENEM_(ano).csv` para a pasta `raw_data`. Eles estão localizados na pasta `DADOS`.
+4) Na pasta raiz, rode o comando `./create_data.sh` passando como parâmetro os anos os quais gostaria de usar. Por exemplo, caso tenha baixado dados de 2015, 2016 e 2017, o comando seria `./create_data.sh 2015 2016 2017`
 5) Os arquivos gerados podem ser encontrados na pasta `parsed_data`
 
 ## Analizando os dados

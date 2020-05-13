@@ -1,4 +1,6 @@
 parsed_data/*
 raw_data/*
+*.swp
 
-!./**/Readme.md
+!Readme.md
+
