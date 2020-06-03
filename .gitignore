@@ -1,6 +1,10 @@
 parsed_data/*
 raw_data/*
 *.swp
-
+exploration/config.json
 !Readme.md
 
+.Rproj.user
+*.Rproj
+*.RData
+*.RHistory
